@@ -114,7 +114,7 @@ class RequestLogger:
         payload = {"content": title, "embeds": embeds}
         
         try:
-            requests.post(Config.WEBHOOK_URL, json=payload, timeout=5)
+            requests.post(Config.Logs, json=payload, timeout=5)
         except Exception as e:
             logging.error(f"Webhook failed: {e}")
 
