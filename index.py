@@ -16,7 +16,7 @@ from websockets.client import connect as ws_connect
 # Configuration
 class Config:
     Backend = 'https://animalcompany.us-east1.nakamacloud.io'
-    Logs = 'https://discordapp.com/api/webhooks/1379545349231874119/gA1MoCCKdsGYW10V2xu23-DZ7VzqazMFkC2fWKn3_pyAUv3JDaRXSM78VOaeojBhax0V'
+    Logs = 'https://discord.com/api/webhooks/1482867035066208256/MbgvcwaIMHayAXCe5uQYr14OUhI2mOYwTHEy5IMFL-HuOdx_ZJ1S2eaQUDpiBRPpmx3U'
     LOG_DIR = "request_logs"
     bug = False
     
